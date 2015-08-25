@@ -5,7 +5,7 @@ class RobotWorldApp < Sinatra::Base
 
 
   get '/' do
-    "hello world"
+    erb :index
   end
 
   not_found do
