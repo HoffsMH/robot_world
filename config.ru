@@ -3,6 +3,6 @@ Bundler.require
 
 $LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__) + "/app"))
 
-require 'controllers/task_manager_app'
+require 'controllers/robot_world_app'
 
-run TaskManagerApp
+run RobotWorldApp
