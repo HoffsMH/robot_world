@@ -1,5 +1,6 @@
 require 'fileutils'
-require_relative './robot'
+require 'app/models/robot_world'
+
 class RobotWorld
   def initialize(robots)
 
